@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Tirth",
+    "role": "Tech Lead"
+  },
+  {
+    "id": 4,
+    "name": "jay",
+    "role": "cto"
+  },
+  {
+    "id": 5,
+    "name": "abhi",
+    "role": "ceo"
+  },
+  {
+    "id": 6,
+    "name": "jenil",
+    "role": "developer"
+  },
+  {
+    "id": 7,
+    "name": "devansh",
+    "role": "hr"
+  },
+  {
+    "id": 7,
+    "name": "Devansh",
+    "role": "Manager"
+  }
+]
