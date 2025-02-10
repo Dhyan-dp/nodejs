@@ -1,4 +1,4 @@
-let numbers = [1, 2, "3", 4, 5, 6, 7, 8];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 console.log("Before applying break and continue:");
 console.log(numbers);
