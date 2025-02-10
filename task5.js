@@ -20,7 +20,7 @@ if (true) {
     console.log(hoistedInsideBlockVar); // Undefined (hoisted but not initialized)
     var hoistedInsideBlockVar = 'I am hoisted inside block';
     
-    // console.log(hoistedInsideBlockLet); // Error: Cannot access 'hoistedInsideBlockLet' before initialization
+    // console.log(hoistedInsideBlockLet); //Cannot access 'hoistedInsideBlockLet' before initialization
     let hoistedInsideBlockLet = 'I am block-scoped';
     console.log(hoistedInsideBlockLet); // 'I am block-scoped'
 }
