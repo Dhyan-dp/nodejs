@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <button id="mybutton">
+            click me
+        </button>
+
+
+        <script>
+            const button=document.getElementById("mybutton");
+
+
+            function normal()
+            {
+                console.log("normal function:",this.textContent);
+            }
+
+            const arrowFunction = () => {
+            // console.log("Arrow Function:", this.textContent); // 'this' is undefined or refers to window
+                console.log('arrow function',event.target.textContent);//using event.target.textContent you can access the value inside the tag 
+        };
+
+
+        button.addEventListener("click", normal);
+        button.addEventListener("click", arrowFunction);
+        </script>
+    </body>
+</html>
